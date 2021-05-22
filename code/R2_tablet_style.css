@@ -1,5 +1,6 @@
 @media only screen and (min-width: 480px) {
-  .container{
-    background-color: chartreuse;
-  }
+  header h1{
+    text-align: center;
+    font-size: 1.5rem;
+}
 }

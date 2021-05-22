@@ -3,6 +3,19 @@
     padding: 0px;
     box-sizing: border-box;
   }
+  *::-webkit-scrollbar {
+    width: 3px;
+    height: 10px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: gainsboro;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: dimgray;
+    border-radius: 20px;
+  }
 .container{
     min-width: 100%;
 }
@@ -11,11 +24,14 @@ header{
 }
 header h1{
     text-align: center;
+    font-size: 1.2rem;
+    margin: 0 10px;
 }
 #tablecontainer{
     margin: 30px auto 0 auto;
     width: 85%;
-    overflow-x: scroll;
+    max-width: 690px;
+    overflow-x: auto;
 }
 table{
     margin: auto;
@@ -38,4 +54,24 @@ tbody td{
     text-align: center;  
     font-size: 0.8rem;
     height: 35px;
+}
+#legend,
+#Glossary{
+    width: 85%;
+    max-width: 690px;
+    margin: 20px auto 0px auto;
+    overflow-x: auto;
+}
+#legend div{
+    min-width: 320px;
+}
+#Glossary{
+    margin-bottom: 90px;
+}
+#Glossary div{
+    min-width: 300px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    gap: 10px 0;
 }
