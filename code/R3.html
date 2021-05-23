@@ -13,10 +13,16 @@
 <body>
   <div class="container">
     <main>
-      <aside id="modal">
+      <aside id="modal" onclick=hideModal()>
+        <video id="videoArticle" controls>
+          <source src="src/videoTest.mp4" type="video/mp4">
+          No ha podido ser reproducido.
+        </video>
       </aside>
       <section class="informationArticle">
-        <iframe id="videoArticle" src="https://www.youtube.com/embed/I9rlqbPTcLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div id="posterVideo" onclick=showModal()>
+          
+        </div>
         <article>  
           <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit consectetur adipisicing elit.</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab inventore et, veritatis nesciunt ut atque magni, quos, quod asperiores incidunt nobis fugiat ducimus aperiam architecto assumenda consequatur deleniti recusandae facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus unde rerum harum iste, dolorum quibusdam vel nostrum. Ratione sunt facilis ullam fugiat at dicta architecto natus minima, hic alias aut!</p>

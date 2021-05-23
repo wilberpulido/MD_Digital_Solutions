@@ -1,4 +1,8 @@
 @media only screen and (min-width: 769px) {
+    #videoArticle{
+        height: 340px;
+        max-width: 620px;
+    }
     .informationArticle{
         max-width: 1000px;
         display: grid;
