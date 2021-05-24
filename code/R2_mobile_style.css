@@ -40,12 +40,10 @@ table{
 thead th{
     font-size: 1rem;
     height: 50px;
+    min-width: 70px;
 }
 thead th:first-child{
     min-width: 130px;
-}
-thead th{
-    min-width: 70px;
 }
 tbody tr:nth-child(odd) {
     background-color: gainsboro;
