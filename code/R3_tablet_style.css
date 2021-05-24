@@ -4,4 +4,7 @@
         height: 280px;
         max-width: 480px;
     }
+    nav{
+        max-width: 480px;
+    }
 }
