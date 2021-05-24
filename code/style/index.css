@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+.container{
+    width: 100%;
+}
+header{
+    margin: 60px 20px;
+}
+header h1{
+    text-align: center;
+}
+nav{
+    position: relative;
+    width: 70%;
+    margin: 100px auto 0 auto;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 33.33%;
+    list-style: none;
+    flex-wrap: wrap;
+}
+ul li{
+    width: max-content;
+    margin: 10px;
+}
+ul li a{
+    font-size: 26px;
+    color: gray;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: darkorange;
+}

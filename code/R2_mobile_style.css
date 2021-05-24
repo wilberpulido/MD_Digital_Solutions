@@ -3,19 +3,51 @@
     padding: 0px;
     box-sizing: border-box;
   }
+  *::-webkit-scrollbar {
+    width: 3px;
+    height: 10px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: gainsboro;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: dimgray;
+    border-radius: 20px;
+  }
 .container{
     min-width: 100%;
+}
+nav a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: lightslategray;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+nav a:hover{
+    background-color: darkorange;
 }
 header{
     margin-top: 30px;
 }
 header h1{
     text-align: center;
+    font-size: 1.2rem;
+    margin: 0 10px;
+}
+nav,
+#tablecontainer{
+    width: 85%;
+    max-width: 690px;
+    margin: 20px auto 0 auto;
 }
 #tablecontainer{
-    margin: 30px auto 0 auto;
-    width: 85%;
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 table{
     margin: auto;
@@ -24,12 +56,10 @@ table{
 thead th{
     font-size: 1rem;
     height: 50px;
+    min-width: 70px;
 }
 thead th:first-child{
     min-width: 130px;
-}
-thead th{
-    min-width: 70px;
 }
 tbody tr:nth-child(odd) {
     background-color: gainsboro;
@@ -38,4 +68,31 @@ tbody td{
     text-align: center;  
     font-size: 0.8rem;
     height: 35px;
+}
+.positive{
+    color: green
+}
+.negative{
+    color: red;
+}
+#legend,
+#Glossary{
+    width: 85%;
+    max-width: 690px;
+    margin: 20px auto 0px auto;
+    overflow-x: auto;
+}
+#legend div{
+    min-width: 320px;
+    color: gray;
+}
+#Glossary{
+    margin-bottom: 90px;
+}
+#Glossary div{
+    min-width: 300px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    gap: 10px 0;
 }

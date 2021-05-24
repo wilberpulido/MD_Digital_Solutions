@@ -1,0 +1,18 @@
+@media only screen and (min-width: 769px) {
+    #videoArticle{
+        height: 340px;
+        max-width: 620px;
+    }
+    .informationArticle{
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: 47% 47%;
+        column-gap: 6%;
+    }
+    .informationArticle h1{
+        margin-top: 0px;
+    }
+    nav{
+        max-width: 1000px;
+    }
+}
