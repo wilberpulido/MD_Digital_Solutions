@@ -6,6 +6,24 @@
 .container{
     min-width: 100%;
 }
+nav a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: lightslategray;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+nav a:hover{
+    background-color: darkorange;
+}
+nav{
+    width: 85%;
+    max-width: 420px;
+    margin: 30px auto 0 auto;
+}
 #modal{
     display: none;
     position: fixed;

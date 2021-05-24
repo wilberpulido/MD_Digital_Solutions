@@ -20,6 +20,24 @@
 .container{
     min-width: 100%;
 }
+nav {
+    width: 85%;
+    max-width: 1080px;
+    margin: 30px auto;
+}
+nav a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: lightslategray;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+nav a:hover{
+    background-color: darkorange;
+}
 header{
     margin-top: 30px;
 }
