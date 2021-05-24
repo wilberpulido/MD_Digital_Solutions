@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+.container{
+    width: 100%;
+}
+header{
+    margin: 60px 0;
+}
+header h1{
+    text-align: center;
+}
+nav{
+    position: relative;
+    width: 70%;
+    margin: 100px auto 0 auto;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 33.33%;
+    list-style: none;
+}
+li{
+    width: max-content;
+}
+ul li a{
+    font-size: 26px;
+    color: gray;
+}
+ul li a:hover{
+    color: darkorange;
+}
